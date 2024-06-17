@@ -86,3 +86,31 @@ select {
     background-position-x: calc(100% - 20px);
     background-position-y: 20px;
 }
+
+@media (max-width: 650px) {
+    textarea {
+        width: 80%;
+    }
+
+    .row {
+        width: 80%;
+    }
+
+    .hero h1 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 562px) {
+    .row {
+        width: 80%;
+        flex-direction: column;
+        height: 105px;
+    }
+
+    select {
+        width: 100%;
+    }
+}
